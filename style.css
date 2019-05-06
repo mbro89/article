@@ -1,0 +1,70 @@
+/* Small screens */
+@media only screen {
+  * { box-sizing: border-box;}
+
+  body {
+    background-color: #949687;
+    font-family: Raleway, sans-serif;}
+
+
+
+    article {
+      background-color: white;
+      border: 1px solid #6b6c62;
+      border-radius: 5px;
+      display: flex;
+      margin: 4%;
+      overflow: hidden;
+    }
+
+    h4 { font-size: 1.125em;}
+
+    .post-img {
+      width: 50%;
+    }
+    .post-img img {
+      width: 100%;
+      display: block;
+    }
+
+    .post-text {
+      padding: 1em;
+      text-transform: uppercase;
+      width: 50%;
+    }
+
+    span { color: grey; font-family: Calibri; font-size: .8em;}
+}
+@media only screen and (max-width: 419px) {
+  h4 { font-size: .8em;}
+  span { font-size: .6em;}
+}
+/* Medium screens */
+@media only screen and (min-width: 420px) { }
+@media only screen and (min-width: 420px) and (max-width: 479px) {
+  h4 { font-size: 1em;}
+  span { font-size: .8em;}
+}
+/* Large screens */
+@media only screen and (min-width: 480px) {
+  .content { display: flex; flex-wrap: wrap;}
+
+  article { display: block;}
+
+  .post-img { width: 100%;}
+  .post-text { width: 100%;}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  article { width: 42%;}
+}
+
+@media only screen and (min-width: 768px) {
+  article { margin: 3%; width: 27.33%;}
+}
+@media only screen and (min-width: 768px) and (max-width: 899px) { }
+
+@media only screen and (min-width: 900px) { }
+@media only screen and (min-width: 900px) and (max-width: 1023px) { }
+
+@media only screen and (min-width: 1024px) { }
+@media only screen and (min-width: 1024px) and (max-width: 1200px) { }
